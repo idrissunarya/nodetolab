@@ -46,6 +46,16 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = True
 
 '''
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8000",
+    "http://localhost:8000/tags",
+    "http://localhost/tags",
+    "http://localhost"
+]
+
+'''
+
+'''
 CORS_ALLOW_HEADERS = list(default_headers) + [
     'contenttype',
 ]
